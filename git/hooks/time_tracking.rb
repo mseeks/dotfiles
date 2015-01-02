@@ -25,7 +25,7 @@ class TimeTrackCommitHook < RubyGitHooks::Hook
     minutes = $stdin.gets
     hours = minutes.to_i / 60.0
 
-    puts @tick.create_entry(task_id: @task, hours: hours, date: Date.today, notes: File.open(commit_message_file, "r").read)
+    @tick.create_entry(task_id: @task, hours: hours, date: Date.today, notes: File.open(commit_message_file, "r").read)
 
     return true
   end
