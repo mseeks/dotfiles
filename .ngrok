@@ -1,0 +1,6 @@
+auth_token: [PASSWORD]
+tunnels:
+  web:
+    subdomain: msull92
+    proto:
+      https: 3000
