@@ -53,7 +53,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " Github config
-let g:github_access_token = "53fe4834a19a8b29f38d499d05e11ef4c35051ab"
+let g:github_access_token = [PASSWORD]
 let g:gissues_lazy_load = 0
 let g:gissues_async_omni = 0
 
